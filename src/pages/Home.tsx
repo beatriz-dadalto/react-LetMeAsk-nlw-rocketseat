@@ -23,7 +23,10 @@ export const Home = () => {
   async function handleJoinRoom(event: FormEvent) {
     event.preventDefault();
 
-    if (roomCode.trim() === '') return;
+    if (roomCode.trim() === '') {
+      alert('Escreva o código da sala');
+      return;
+    }
 
     // get id room
     const roomRef = await database.ref(`rooms/${roomCode}`).get();
