@@ -2,7 +2,12 @@
 
 <br />
 
-[imagem aqui]
+<a href="https://let-me-ask-2b107.web.app">
+    <img alt="site caravan" title="ver o site" src="https://github.com/biacoelho/react-LetMeAsk-nlw-rocketseat/blob/main/demo-image.gif" max-width=480px/>
+</a>
+
+<br />
+<br />
 
 [Visitar](https://let-me-ask-2b107.web.app)
 
